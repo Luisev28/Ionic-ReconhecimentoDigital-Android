@@ -1,0 +1,17 @@
+<ion-header *ngIf="!isModal">
+<ion-toolbar color="primary">
+  <ion-title>Login</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  
+  <ion-row class="loginrow" aling-items-center>
+    <ion-col size="5"></ion-col>
+    <ion-col class="lock-col">
+      <div class="lock-bg"></div>
+      <img src="assets/cadeado.png" class="lock-img" tappable (click)="login()">
+    </ion-col>
+  </ion-row>
+</ion-content>
